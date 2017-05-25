@@ -1,0 +1,22 @@
+{
+  "ProcData" : {
+    "procedureString" : "CALL SYSTEM_LOBS.CREATE_EMPTY_BLOCK(?,?)",
+    "parameters" : [ {
+      "name" : "B_ADDR",
+      "type" : "integer",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "testValue" : "1",
+      "required" : true,
+      "parameterType" : "IN_OUT"
+    }, {
+      "name" : "B_COUNT",
+      "type" : "integer",
+      "list" : false,
+      "variableType" : "PROMPT",
+      "testValue" : "1",
+      "required" : true,
+      "parameterType" : "IN"
+    } ]
+  }
+}

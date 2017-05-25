@@ -1,0 +1,37 @@
+{
+  "MyJavaController_substract" : {
+    "id" : "MyJavaController_substract",
+    "service" : "MyJavaService",
+    "controller" : "MyJavaController",
+    "operationType" : "integer",
+    "type" : "integer",
+    "wmServiceOperationInfo" : {
+      "name" : "substract",
+      "methodType" : "get",
+      "relativePath" : "/myJava/substract",
+      "directPath" : "/myJava/substract",
+      "httpMethod" : "get",
+      "parameters" : [ {
+        "name" : "a",
+        "parameterType" : "query",
+        "type" : "int",
+        "required" : false,
+        "contentType" : null
+      }, {
+        "name" : "b",
+        "parameterType" : "query",
+        "type" : "int",
+        "required" : false,
+        "contentType" : null
+      } ],
+      "definitions" : { },
+      "produces" : null,
+      "consumes" : null,
+      "authorization" : null,
+      "proxySettings" : {
+        "web" : true,
+        "mobile" : true
+      }
+    }
+  }
+}
